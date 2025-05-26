@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mangodb.py"
+version = "1.0.0"
+description = "Async ODM for MongoDB based on Motor & Pydantic"
+readme = "readme.md"
+requires-python = ">=3.7"
+authors = [
+  {name = "noxzion", email = "pochta@gmail.com"}
+]
+license = {text = "MIT"}
+keywords = ["mongodb", "motor", "pydantic", "async", "odm"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+
+dependencies = [
+  "motor>=2.5.1",
+  "pydantic>=1.10.2"
+]
